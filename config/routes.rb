@@ -1,10 +1,16 @@
 Tasks::Application.routes.draw do
+<<<<<<< HEAD
   get "tasks/index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
   root :to => 'Tasks#index'
   resources :tasks
+=======
+  # The priority is based upon order of creation:
+  # first created -> highest priority.
+
+>>>>>>> 3edd5cef6b2646273b7c3f63ad4e0f8d4a506184
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action

@@ -30,10 +30,16 @@ group :test, :development do
 	gem 'rb-readline'
 	gem 'launchy'
 	gem 'wdm'
+<<<<<<< HEAD
 	gem 'ruby_gntp'
 	gem 'rb-fsevent'
 	gem 'ruby-growl'
 end
+=======
+	gem 'ruby-growl'
+end
+
+>>>>>>> 3edd5cef6b2646273b7c3f63ad4e0f8d4a506184
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
