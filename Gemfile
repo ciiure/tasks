@@ -27,19 +27,16 @@ group :test, :development do
 	gem 'rspec-rails'
 	gem 'capybara'
 	gem 'guard-rspec'
+	gem "minitest"
 	gem 'rb-readline'
 	gem 'launchy'
 	gem 'wdm'
-<<<<<<< HEAD
 	gem 'ruby_gntp'
 	gem 'rb-fsevent'
-	gem 'ruby-growl'
-end
-=======
-	gem 'ruby-growl'
+	gem "win32console", "~> 1.3.0"
 end
 
->>>>>>> 3edd5cef6b2646273b7c3f63ad4e0f8d4a506184
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
